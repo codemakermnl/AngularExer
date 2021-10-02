@@ -20,8 +20,9 @@
 
 
     <ol>
+      
       <li *ngFor = "let flavor of pizza">
-          <span>Flavor: {{ flavor }}</span>
+          <span>Flavor: {{ flavor.name }}, Size:  {{ flavor.size }}</span>
       </li>
     </ol>
 </div>
