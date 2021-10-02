@@ -19,8 +19,8 @@ export class AppComponent{
   {"name": 'PEPPERONI AMERICANA PIZZA', "size":'Large', 
   "description" : "18-inch pizza fully loaded with sumptuous Pepperoni, made with 100% Mozzarella Cheese!"},
 
-  {"name": 'PEPPERONI AMERICANA PIZZA', "size":'Large', 
-  "description" : "18-inch pizza fully loaded with sumptuous Pepperoni, made with 100% Mozzarella Cheese!"},
+  {"name": 'FRIDAY SPECIAL', "size":'Large', 
+  "description" : "Not Just For Fridays! A Pizza Loaded With Shrimp, Anchovies And Mushrooms."},
 
    {"name": 'MANAGER\'S CHOICE AMERICANA PIZZA', "size":'Medium', 
   "description" : "Loaded with ham, beef, italian sausage, green bell pepper and onions, made with 100% Mozzarella Cheese!"},
