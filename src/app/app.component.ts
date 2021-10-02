@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-exer';
+
+  name:string = '';
+  school:string = '';
+  address:string = '';
+  course:string = '';
+
+  pizza = ['Cheese', 'Veggie', 'Pepperoni', 'Hawaiian', 'Meat', 'Margherita', 'BBQ Chicken', 'Supreme'];
+
+  
 }
