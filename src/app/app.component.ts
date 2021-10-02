@@ -13,16 +13,36 @@ export class AppComponent{
   address:string = '';
   course:string = '';
 
-  pizza1 = ['Cheese', 'Veggie', 'Pepperoni', 'Hawaiian', 'Meat', 'Margherita', 'BBQ Chicken', 'Supreme'];
-  pizza : any = [ {"name": 'Cheese', "size":'Regular'} ,
-            {"name": 'Veggie', "size":'Medium'},
-            {"name": 'Pepperoni', "size":'Family'},
-            {"name": 'Hawaiian', "size":'Large'},
-            {"name": 'Meat', "size":'Large'},
-            {"name": 'Margherita', "size":'Regular'},
-            {"name": 'BBQ Chicken', "size":'Medium'},
-            {"name": 'Supreme', "size":'Regular'},
-            {"name": 'Cheese', "size":'Family'}, ];
+  pizza : any = [ {"name": 'GLAZED BACON AMERICANA PIZZA', "size":'Large', 
+  "description" : "Pizza Americana Glazed Bacon, 18-inch savory pizza topped with sweet, crisp bacon and parsley."} ,
+  
+  {"name": 'PEPPERONI AMERICANA PIZZA', "size":'Large', 
+  "description" : "18-inch pizza fully loaded with sumptuous Pepperoni, made with 100% Mozzarella Cheese!"},
+
+  {"name": 'PEPPERONI AMERICANA PIZZA', "size":'Large', 
+  "description" : "18-inch pizza fully loaded with sumptuous Pepperoni, made with 100% Mozzarella Cheese!"},
+
+   {"name": 'MANAGER\'S CHOICE AMERICANA PIZZA', "size":'Medium', 
+  "description" : "Loaded with ham, beef, italian sausage, green bell pepper and onions, made with 100% Mozzarella Cheese!"},
+
+   {"name": 'HAWAIIAN DELIGHT PIZZA AMERICANA', "size":'Regular', 
+  "description" : "pizza topped with ham and pineapples, made with 100% Mozzarella Cheese!"},
+
+  {"name": 'CLASSIC CHEESE AMERICANA PIZZA', "size":'Large', 
+  "description" : "Oozing with Pure Mozzarella Cheese, irresistibly cheesy!"},
+
+  {"name": 'SCALLOP AND SHRIMP PIZZA AMERICANA', "size":'Large', 
+  "description" : "pizza topped with scallop, shrimp and bell peppers on creamy white sauce, made with 100% Mozzarella Cheese!"},
+
+  {"name": 'HAWAIIAN DELIGHT', "size":'Medium', 
+  "description" : "All-Time Favorite Ham And Pineapple."},
+
+  {"name": 'GARLIC N CHEESE', "size":'Large', 
+  "description" : "A Supreme Classic, Cheese With Minced Garlic Best On Our Signature Thin-Crust Pizza."},
+
+  {"name": 'BELLY BUSTER', "size":'Regular', 
+  "description" : "11 Delicious Toppings! Count Them: Beef, Italian Sausage, Pepperoni, Ham, Salami, Cheddar Cheese, Salami Bits, Mushrooms, Red And Green Bell Pepper, Onions And Black Olives."},
+ ];
   
 
 }
